@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(51, 48, 48);
+
+  }
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 8px;
+    font-size: 24px;
+    text-align: center;
+    margin: 9px;
+   color: white;
+  }
+  #logo img{
+    height: 74px;
+    padding-top: 4px;
+  }
+  #votee img{
+    height: 57px;
+    padding-top: 10px;
+    width: 95px;
+  }
+/* header end */
+
+section h2{
+    color: rgb(153, 39, 39);
+    text-align: center;
+}
+.headbox{
+    height: 30px;
+    border: 2px solid #d5d7e5ba;
+    margin: 3px auto 16px;
+    width: 84%;
+    padding: 13px 4px;
+    border-radius: 3px;
+}
+.headbox  .agroup{
+    background: rgb(69 64 64 / 62%);
+    width: 69px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+ 
+}
+.headbox .A2{
+    margin-right: 50%;
+}
+.headbox .A1{
+    margin-left: 3%;
+ 
+}
+.headbox #hind{
+        height: 29px;
+        margin-left: 4%;
+        width: 9%;
+        padding-left: 2.4%;
+}
+form{
+    border: 2px solid rgb(36, 33, 33);
+    margin: 10px auto;
+    padding: 18px;
+    padding-bottom: 18px;
+    background-color: #cfc5d773;
+    width: 82%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.box1,.box2{
+       height: 56px;
+       color: #000000;
+       margin: 0px 0px 38px 0px;
+       padding: 23px;
+       font-size: 20px;
+       font-family: serif;
+}
+.box1{
+    margin-bottom: 0px;
+    line-height: 33px;
+    background-color:rgb(159 117 200 / 53%) ;
+    font-weight: bold;
+}
+.box2{
+    margin-top: 0px;
+    background: rgb(215 139 139 / 60%);
+    line-height: 24px;  
+}
+
+ sup {
+    color: red;
+    font-size: 10px;
+    font-weight: bolder;
+}
+sup#headstar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.box3{
+    
+    background:rgb(215 139 139 / 60%);
+    height: 17px;
+    color: #000000;
+    margin: 30px 0px 30px 0px;
+    font-size: 20px;
+    padding: 23px;
+    font-family: serif;
+}
+
+
+button{
+    background: rgba(27, 27, 27, 0.623);
+    width: 60px;
+    height: 28px;
+    padding: 3px;
+    font-size: small;
+    margin-left: 3%;
+
+}
+.butn{
+    color: white;
+    background: rgba(38, 133, 51, 0.842);
+    border: none;
+    width: 8%;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: sans-serif;
+    
+}
+.b1{
+    margin-left: 43%;
+}
+select{
+    background: rgb(69 64 64 / 62%);
+    width: 69px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-left: 8px;
+    margin-left: 9px;
+}
+select:hover{
+    background: rgba(0, 0, 0, 0.466);
+    border: 3px solid #b6bad9ba;
+}
+
+a{
+    margin-left: 9%;
+}
+a:hover{
+    text-decoration:underline;
+    color: blue;
+}
+
+.sect,.sect2,.div1,.div2,span,.div3{
+    margin-left: 10%;
+}
+
+input#myFile{
+    border: 2px solid lightgrey;
+    margin-right: 11%;
+    width: 29%;
+
+}
+input#locate{
+    margin-right: 4%;
+}
+
+.sect2,.div1{
+    line-height: 64px;
+   
+
+}
+.sect2{
+    margin-bottom: -32px;
+}
+.div1{
+    margin-bottom: -18px;
+}
+.div2{
+    line-height: 30px;
+}
+input#lname,input#start,input#fname{
+    border: 2px solid #cdcacadb;
+    border-radius: 2.8px;
+}
+input#lname,input#fname{
+  
+    margin-left: 5px;
+    height: 20px;
+    width: 17%;
+}
+
+select#sel{
+    margin-right: 15%;
+}
+/* footer starts */
+footer{
+    background: black;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    text-align: center;
+   
+}
+footer p{
+
+    padding: 30px;
+
+}
+
+/* footer ends */
