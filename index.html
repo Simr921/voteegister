@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/4e4ab773fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Voter Resgistration</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="grid-container">
+        <div class="grid-item" id="logo"><img src="flag.jpg" /></div>
+        <div class="grid-item" id="hindi">
+          <h2>राष्ट्रीय मतदान सेवा डेमो पोर्टल</h2>
+        </div>
+        <div class="grid-item" id="nation">
+          <h2>NATIONAL VOTERS' SERVICES DEMO PORTAL</h2>
+        </div>
+        <div class="grid-item" id="votee"><img src="vote.jpg" /></div>
+      </div>
+    </header>
+    <section>
+      <div class="headbox">
+        <button class="agroup A1">A+</button>
+        <button class="agroup A2">A-</button>
+
+        <div class="lan">
+          Select Language :
+          <select name="" id="hind" required>
+            <option>Hindi</option>
+            <option>English</option>
+          </select>
+        </div>
+      </div>
+      <h2>
+        Note: Fields marked with asterisks ( <sup id="headstar">*</sup> ) are
+        mandatory
+      </h2>
+      <form action="">
+        <div class="box1">
+          <p>Type 6</p>
+          <p>[See rule 13(1) and 26]</p>
+        </div>
+        <div class="box2">
+          Application for inclusion of name in the electoral roll for the first
+          time due to the transfer of voter or any other constituency from any
+          one constituency
+        </div>
+        <br />
+        <p>In service</p>
+        <br /><br />
+        <p>Electoral Registration Officer,</p>
+        <br />
+
+        <div class="div1">
+          State <sup>*</sup>
+          <select name="" id="sel" required>
+            <option>Select</option>
+          </select>
+
+          District
+          <select name="" id="">
+            <option>Select</option></select
+          ><br />
+          Legislative Assembly / Parlimentary constituency
+          <select name="" id="">
+            <option>Select</option>
+          </select>
+        </div>
+        <br />
+        <br />
+        I request that my name be included in electoral rolls for all the
+        aforesaid areas.
+        <br />
+        <br />
+        <div class="div2">
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">First time voter</label><br />
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female"> Due to transfer from other meeting areas.</label>
+        </div>
+        <br /><br /><br />
+        Below are specifications in support of my claim to be included in the
+        electoral rolls.
+        <br />
+        <div class="box3">Mandatory specifications</div>
+        <div class="div1">
+          (A) Name <sup>*</sup>
+          <label for="fname"></label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="(In English)"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="(In Regional)"
+            required
+          />
+          <button>
+            <i class="far fa-keyboard"></i>
+          </button>
+          <br />
+          (B) Surname (if any) <sup>*</sup>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="(In English)"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="(In Regional)"
+            required
+          />
+          <button>
+            <i class="far fa-keyboard"></i>
+          </button>
+          <br />
+          (C) Name of the applicant's relative <sup>*</sup>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="(In English)"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="(In Regional)"
+            required
+          />
+          <button>
+            <i class="far fa-keyboard"></i>
+          </button>
+          <br />
+          Nickname of the applicant's relative <sup>*</sup>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="(In English)"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="(In Regional)"
+            required
+          />
+          <button>
+            <i class="far fa-keyboard"></i>
+          </button>
+          <br />
+          (D) Type of the relationship <sup>*</sup>
+          <select name="" id="" required>
+            <option>Select</option>
+          </select>
+          <br />
+
+          <input type="radio" id="age" name="agedob" />
+          <label for="age"
+            >(E) Age [on January 1 of the current calender] <sup>*</sup></label
+          >
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder=""
+            required
+          />
+          <select name="" id="">
+            <option>Year</option>
+          </select>
+          <select name="" id="">
+            <option>Month</option></select
+          ><br />
+          Or
+
+          <br />
+          <input type="radio" id="dob" name="agedob" />
+          <label for="DOB"
+            >(F) Date of birth (in the form of day/ month/ year)</label
+          >
+          <input type="date" id="start" name="trip-start" required />
+          <br />
+        </div>
+        <span>(if known) <sup>*</sup></span>
+
+        <br /><br />
+        <div class="div1">
+          (G) Applicant's gender <sup>*</sup>
+          <select name="" id="" required>
+            <option>Select</option>
+          </select>
+        </div>
+
+        <div class="box3">
+          (H) Current address, whose applicant is nominally resident
+        </div>
+        <br />
+        <div class="div1">
+          House no. <sup>*</sup>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="(In English)"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="(In Regional)"
+            required
+          />
+          <button>
+            <i class="far fa-keyboard"></i>
+          </button>
+          <br />
+
+          Street / area / location <sup>*</sup>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="(In English)"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="(In Regional)"
+            required
+          />
+          <button>
+            <i class="far fa-keyboard"></i>
+          </button>
+          <br />
+
+          City / Village: <sup>*</sup>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="(In English)"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="(In Regional)"
+            required
+          />
+          <button>
+            <i class="far fa-keyboard"></i>
+          </button>
+          <br />
+
+          Post Office: <sup>*</sup>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="(In English)"
+            required
+          />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder="(In Regional)"
+            required
+          />
+          <button>
+            <i class="far fa-keyboard"></i>
+          </button>
+          <br />
+
+          Pin Code <sup>*</sup>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value=""
+            placeholder=""
+            required
+          />
+
+          <br />
+          State / Union Territory <sup>*</sup>
+          <select name="" id="" required>
+            <option>Select</option>
+          </select>
+          <br />
+
+          District <sup>*</sup>
+          <select name="" id="" required>
+            <option>Select</option>
+          </select>
+        </div>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+        <div class="div1">
+          Family / Neighbour Epic No.
+          <input type="text" id="lname" name="lname" value="" placeholder="" />
+        </div>
+        <br />
+        <br /><br />
+        <hr />
+        <br />
+
+        <div class="box3">Optional specialties</div>
+        <div class="div1">
+          (T) Disability (if any)
+          <br />
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+          <label for="vehicle1"> Visual impairment</label>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+          <label for="vehicle2">Speech and hearing impairment</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+          <label for="vehicle3">Motion disabling</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+          <label for="vehicle3">Others</label>
+          <input type="text" id="lname" name="lname" value="" placeholder="" />
+          <br />
+          (Th) Email ID (optional)
+          <input type="text" id="lname" name="lname" value="" placeholder="" />
+          <br />
+          (D) mobile number (optional) +91
+          <input type="text" id="lname" name="lname" value="" placeholder="" />
+        </div>
+        <br />
+        <div class="box3">
+          Upload supporting documents (Supported formats .jpg, .png, .bmp,
+          .jpeg) (max. 2MB) <a href="#"> List of supported documents </a>
+        </div>
+        <br />
+        <div class="sect">
+          Your photo <sup>*</sup> <br />
+          <input type="file" id="myFile" name="filename" required />
+          <br />
+          Age proof <sup>*</sup>
+          <br />
+          <input type="file" id="myFile" name="filename" required />
+          Document type <sup>*</sup>
+          <select name="" id="" required>
+            <option>Select</option>
+          </select>
+          <br />
+          Adress proof <sup>*</sup>
+          <br />
+          <input type="file" id="myFile" name="filename" required />
+          Document type <sup>*</sup>
+          <select name="" id="" required>
+            <option>Select</option>
+          </select>
+        </div>
+        <br />
+        <div class="box3">Declaration</div>
+        <br />
+        I declare I declare that according to my best knowledge and belief
+        <br /><br />
+        I am a citizen of India and of my birth;
+
+        <div class="sect2">
+          City / Village:
+          <input type="text" id="lname" name="lname" value="" placeholder="" />
+          <br />
+          Select state <sup>*</sup>
+          <select name="" id="state" required>
+            <option>Select</option>
+          </select>
+          District <sup>*</sup>
+          <select name="" id="district" required>
+            <option>Select</option>
+          </select>
+          <br />
+          Date <sup>*</sup>
+          <input type="date" id="start" name="trip-start" required />
+        </div>
+        <br />
+        (ii) I am a nominally resident in the address given in the above (date,
+        month, year) above;
+        <br /><br />
+        I have not applied to include my name in the electoral roll for any
+        other constituency;
+        <br /><br />
+
+        <input type="radio" id="notinc" name="namee" class="div3" />
+        <label
+          >(iv) My name has not been already included in the electoral roll for
+          this or any other assembly / parliamentary</label
+        >
+        <br /><br />
+        <span> or</span>
+        <br /><br />
+        <input type="radio" id="inc" name="namee" class="div3" />
+        <label>
+          My name would have been included in electoral rolls of the State's
+          constituency, in which I was already residing in the address mentioned
+          below, and if so, then I request that it be removed from that
+          electoral roll. Go..</label
+        >
+
+        <br /><br /><br />
+        <hr />
+        <br /><br /><br />
+        <div class="div3">
+          Location <sup>*</sup>
+          <input
+            type="text"
+            id="locate"
+            name="lname"
+            value=""
+            placeholder=""
+            required
+          />
+          Date <input type="date" id="start" name="trip-start" />
+        </div>
+        <br /><br />
+        I am afraid that the statement or declaration, which is false, to whom I
+        know it or believe that it is false or I do not believe in being true,
+        the People's Representation Act, 1950 (43 of 1950 ) Is punishable under
+        section 31
+        <br /><br />
+        <div class="div3">
+          Captcha
+          <img src="Captcha.jpg" width="90px" />
+          <i class="fas fa-redo"></i>
+          <input type="text" id="lname" name="lname" value="" placeholder="" />
+        </div>
+        <br />
+        <br />
+        <div class="rsum">
+            <button type="reset" value="Reset" class="butn b1"><b>Reset</b></button>
+            <button type="submit" value="Submit" class="butn b2"> <b>Submit</b></button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <p>
+        Copyright © 2019 • Suven Consultants and technology pvt ltd • All rights
+        reserved
+      </p>
+    </footer>
+  </body>
+</html>
