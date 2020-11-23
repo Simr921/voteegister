@@ -248,6 +248,15 @@ footer p {
 
 
 @media screen and (max-width: 1024px) {
+  form{
+  width: auto;
+  margin: 0;
+  
+}
+.headbox{
+  width: auto;
+  margin: 0;
+}
   .grid-item {
     padding: 0.1rem;
     font-size: 0.7rem;
